@@ -9,10 +9,10 @@ If you want the pure files of the addon, simply change the extension from '.mcpa
 
 ### main.cpp
 the C++ file used to generate the mcfunction files for rendering.
-That includes:
--rmc_draw.mcfunction
--rmc_cls.mcfunction
--rmc_drawDEBUG.mcfunction
+That includes: <br />
+-rmc_draw.mcfunction <br />
+-rmc_cls.mcfunction <br />
+-rmc_drawDEBUG.mcfunction <br />
 
 ### README.md
 Simply this text you currently see. Only useful to github, that means you don't need to download this.
