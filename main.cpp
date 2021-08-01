@@ -4,21 +4,6 @@
 
 #define PI 3.14159265
 
-#define txm_FILE "test"
-
-#define READ_CTOI(Char, Int) tSource.read(&Char, 1); Int = Char
-#define COUT_VAL(val) std::cout << val << std::endl;
-
-char testFunc(char input) {
-	return 2 * input;
-}
-
-#define RAY (rayPart + ray * 30) / 10 * 5
-#define MAX_RAY (30 + 9 * 30) / 10 * 5
-
-#define Z_AS_COS cos((RAY / 2 - MAX_RAY / 4) / 180 * PI) * depthPerRay / 15
-#define Z_AS_LINEAR depthPerRay / 10
-
 int main(void) {
 	std::ofstream rmcDraw = std::ofstream("rmc_draw.mcfunction", std::ios::out | std::ios::trunc);
 	std::ofstream rmcDrawDebug = std::ofstream("rmc_drawDEBUG.mcfunction", std::ios::out | std::ios::trunc);
